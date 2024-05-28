@@ -1,0 +1,98 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(45, 45, 45);
+    margin: 0;
+    height: 80vh;
+    width: 100%;
+}
+
+#pessoas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    gap: 13%;
+    padding-top: 5%;
+}
+
+h1{
+    text-shadow: 5px 10px 5px black
+}
+
+#devs{
+    padding-top: 3%;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 72px;
+}
+
+#nome{
+    width: 35vh;
+    height: 45vh;
+    border: solid white;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    color: Black;
+    font-weight: bold;
+    font-size: 32px;
+    flex-direction: column;
+    box-shadow: 5px 10px 5px black;
+    transition: 0.5s ease-in-out;
+}
+
+#nome:hover{
+    transform: scale(1.2);
+}
+
+
+#curso{
+    position: relative;
+    top: 5%;
+    font-size: 20px;
+}
+
+#contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 10%;
+    transition: 2s ease-in-out;
+}
+
+#contatos img{
+    width: 50px;
+}
+
+#colabor{
+    position: relative;
+    top: 5%;
+}
+
+#imagens{
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#imagens img{
+    position: relative;
+    top: 10%;
+    width: 15vh;
+    border: solid black;
+    border-radius: 100px;
+    border-width: 2px;
+    box-shadow: 1px 3px 1px rgb(111, 111, 111)
+}
